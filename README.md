@@ -1,11 +1,11 @@
 # Introduction
 This project analyzes historical sales data from 45 retail stores across different regions to identify factors that impact sales performance. The data includes weekly sales records, store details, and additional features such as promotional markdowns, holidays, and external factors like fuel prices, unemployment rates, and temperature.
--**Objective**:
-  -This analysis aims to:Understand the impact of markdown events on sales.
-  -Evaluate the influence of holidays such as the Super Bowl, Labor Day, Thanksgiving, and Christmas.
-  -Determine the relationship between store size, markdowns, and sales performance.
-
-
+  -**Objective**:
+    -This analysis aims to:Understand the impact of markdown events on sales.
+    -Evaluate the influence of holidays such as the Super Bowl, Labor Day, Thanksgiving, and Christmas.
+    -Determine the relationship between store size, markdowns, and sales performance.
+  
+  
 
 # Retail Sales & Markdown Strategy Analysis
 
