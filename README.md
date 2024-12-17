@@ -1,10 +1,14 @@
 # Introduction
 This project analyzes historical sales data from 45 retail stores across different regions to identify factors that impact sales performance. The data includes weekly sales records, store details, and additional features such as promotional markdowns, holidays, and external factors like fuel prices, unemployment rates, and temperature.
+
+
+the source of this data: https://www.kaggle.com/datasets/manjeetsingh/retaildataset
 - **The dataset consists of three main components**:
 
   - **Stores**: Information about store size and type.
   - **Features**: External factors and promotional markdown data.
   - **Sales**: Weekly sales records for each store and department, including holiday indicators
+
 
 ## Objective:
 this analysis aims to Understand the impact of markdown events on sales.
