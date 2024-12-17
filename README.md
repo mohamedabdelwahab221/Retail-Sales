@@ -47,7 +47,14 @@ Determine the relationship between store size, markdowns, and other features on 
 ### 4. Size of Markdown:
 - **Markdowns below 20,000** show the best correlation with sales for Stores A and B, especially during holidays.
 - Larger markdowns (above 20,000) appear to have less affect on sales during non-holiday showing in correlations decreasing. It is recommended to limit markdowns to **20,000 or below** during non-holiday periods to optimize sales.
+
+![image](https://github.com/user-attachments/assets/a8583d08-eed5-4b9a-a8eb-77558a4d6a8f)
+
+
 - During **holidays**, markdowns can exceed the 20,000 threshold as they are shown to have a strong positive impact on sales with a correlation of 0.67 on A stores and 0.7 on B stores.
+
+![image](https://github.com/user-attachments/assets/23a648db-955b-470a-81af-3f7c9a7ad5a1)
+
 
 ### 5. Factors Affecting Sales:
 - The three main factors that have the most significant impact on sales are:
