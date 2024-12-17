@@ -9,6 +9,7 @@ The goal of this analysis was to understand the relationship between markdowns, 
 
 ### 1. Low Impact of External Factors:
 - **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** showed low correlation with sales, indicating these external factors do not significantly affect sales performance in this dataset, and dosn't show any patterns
+![image](https://github.com/user-attachments/assets/003153ee-cac6-460a-a24c-8ebd7d15e77a)
 
 ### 2. Markdowns & Holidays:
 - **Markdowns** have a moderate to high correlation with sales, particularly during holidays.
