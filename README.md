@@ -2,13 +2,12 @@
 
 ## Objective:
 The goal of this analysis was to understand the relationship between markdowns, holidays, store types, and other influencing factors on sales performance. By identifying key variables affecting sales, we aimed to provide actionable insights to optimize sales strategies.
-![Sales Analysis Graph](![image](https://github.com/user-attachments/assets/12525790-61c5-4d53-a359-de6bf9876ff4)
-)
-
 ## Key Findings:
 
 ### 1. Low Impact of External Factors:
-- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** showed low correlation with sales, indicating these external factors do not significantly affect sales performance in this dataset, and dosn't show any patterns
+- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** showed low correlation with sales, indicating these external factors do not significantly affect sales performance in this dataset, and dosn't show any patterns.
+
+- 
 ![image](https://github.com/user-attachments/assets/003153ee-cac6-460a-a24c-8ebd7d15e77a)
 
 ### 2. Markdowns & Holidays:
