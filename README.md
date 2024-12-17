@@ -30,7 +30,7 @@ The goal of this analysis was to understand the relationship between markdowns, 
 
 
 ### 4. Size of Markdown:
-- **Markdowns below 25,000** show the best correlation with sales for Stores A and B, especially during holidays.
+- **Markdowns below 20,000** show the best correlation with sales for Stores A and B, especially during holidays.
 - Larger markdowns (above 25,000) appear to have diminishing returns, with smaller sample sizes showing inflated correlations. It is recommended to limit markdowns to **25,000 or below** during non-holiday periods to optimize sales without overspending.
 - During **holidays**, markdowns can exceed the 25,000 threshold as they are shown to have a strong positive impact on sales with a correlation of 0.67.
 
