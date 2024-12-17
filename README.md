@@ -31,18 +31,18 @@ The goal of this analysis was to understand the relationship between markdowns, 
 
 ### 4. Size of Markdown:
 - **Markdowns below 20,000** show the best correlation with sales for Stores A and B, especially during holidays.
-- Larger markdowns (above 25,000) appear to have diminishing returns, with smaller sample sizes showing inflated correlations. It is recommended to limit markdowns to **25,000 or below** during non-holiday periods to optimize sales without overspending.
-- During **holidays**, markdowns can exceed the 25,000 threshold as they are shown to have a strong positive impact on sales with a correlation of 0.67.
+- Larger markdowns (above 20,000) appear to have less affect on sales during non-holiday showing in correlations decreasing. It is recommended to limit markdowns to **20,000 or below** during non-holiday periods to optimize sales.
+- During **holidays**, markdowns can exceed the 20,000 threshold as they are shown to have a strong positive impact on sales with a correlation of 0.67 on A stores and 0.7 on B stores.
 
 ### 5. Factors Affecting Sales:
-- The two main factors that have the most significant impact on sales are:
+- The three main factors that have the most significant impact on sales are:
     1. **Store Size**: Larger stores tend to show higher sales, with store size having a strong correlation with sales performance (as observed with a 0.8 correlation in some store types).
-    2. **Markdowns**: Both the size and timing of markdowns play a critical role in boosting sales.
+    2. **Markdowns**: Both the size and timing of markdowns play a critical role in boosting sales(on store A,B only).
     3. **Holidays**: Sales are significantly higher during holidays, especially when combined with markdowns.
 
 ## Recommendations:
-1. **For Non-Holiday Periods**: Stick to markdowns ≤ **25,000**, as this size has shown to work best with the available data and optimizes resource allocation.
-2. **For Holiday Periods**: Given the 0.67 correlation, markdowns can exceed **25,000** during holidays to maximize sales potential.
+1. **For Non-Holiday Periods**: Stick to markdowns ≤ **20,000**, as this size has shown to work best with the available data and optimizes resource allocation.
+2. **For Holiday Periods**: Given the correlation of 0.67 on A stores and 0.7 on B stores, markdowns can exceed **20,000** during holidays to maximize sales potential.
 3. **Focus on Store Size**: Ensure that markdown strategies are tailored according to store size, as it is one of the major factors influencing sales performance.
 4. **Reassess Markdown Strategies for Store C**: Store C’s markdowns do not correlate with sales and should consider alternative promotional strategies or focus on other factors influencing sales.
 
