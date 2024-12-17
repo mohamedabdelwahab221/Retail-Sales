@@ -13,15 +13,21 @@ The goal of this analysis was to understand the relationship between markdowns, 
 ### 2. Markdowns & Holidays:
 - **Markdowns** have a moderate to high correlation with sales, particularly during holidays.
     - **For Store A**:
-        - Correlation ranges from 0.531 to 0.676 during holidays, with significant impacts seen when markdowns are below 25,000.
+        - Correlation ranges from 0.565 to 0.889 during holidays.
     - **For Store B**:
-        - Similar results, with correlations ranging from 0.556 to 0.700 during holidays and markdowns below 25,000.
+        - Similar results, with correlations ranging from 0.556 to 0.700 during holidays.
     - **For Store C**:
         - Markdowns have little to no effect on sales, with very low or negative correlations (-0.076), suggesting markdown promotions are not effective for this store type.
 
 ### 3. Store Type Trends:
-- **Store A** and **Store B** share similar sales patterns and trends, with markdowns having a notable impact, especially during holidays.
+- **Store A** and **Store B** share similar sales patterns and trends, with markdowns having a notable impact.
+  
+  ![image](https://github.com/user-attachments/assets/1e8b0c6d-005f-4011-b4cc-58d054822731)
+
 - **Store C** shows a unique sales pattern, where sales are higher at the beginning of the month and decline towards the end, without any significant correlation to markdowns.
+
+  ![image](https://github.com/user-attachments/assets/8b4f5e7a-6eb6-4eb1-b3cf-283171b848d4)
+
 
 ### 4. Size of Markdown:
 - **Markdowns below 25,000** show the best correlation with sales for Stores A and B, especially during holidays.
