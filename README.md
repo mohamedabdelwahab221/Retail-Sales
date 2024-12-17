@@ -19,7 +19,7 @@ Determine the relationship between store size, markdowns, and other features on 
 
 ## Key Findings:
 
-### 1. Low Impact of External Factors:
+### 1. Low Impact Factors:
 - **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** showed low correlation with sales, indicating these external factors do not significantly affect sales performance in this dataset, and dosen't show any patterns.
 
   
