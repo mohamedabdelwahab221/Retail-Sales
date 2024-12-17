@@ -1,3 +1,9 @@
+# Introduction
+This project analyzes historical sales data from 45 retail stores across different regions to identify factors that impact sales performance. The data includes weekly sales records, store details, and additional features such as promotional markdowns, holidays, and external factors like fuel prices, unemployment rates, and temperature.
+
+
+
+
 # Retail Sales & Markdown Strategy Analysis
 
 ## Objective:
