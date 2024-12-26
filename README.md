@@ -22,8 +22,13 @@ I analyzed sales data from 45 retail stores to find out what affects their sales
 
 ### 1. External Factors Have Low Impact
 
-- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** have little to no correlation with sales.
+- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** have little to no correlation about 0 with sales and dosen't show any parttern between them and sales.
 - These factors don't significantly affect sales in our dataset.
+
+
+
+![CPI ,Unemployment, Fuel Prices, Temperature plot](https://github.com/user-attachments/assets/62cb35f7-17db-4a66-9635-acef130357fc)
+
 
 ### 2. Promotions and Holidays Boost Sales
 
