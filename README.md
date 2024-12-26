@@ -1,72 +1,104 @@
-# Introduction
-This project analyzes historical sales data from 45 retail stores across different regions to identify factors that impact sales performance. The data includes weekly sales records, store details, and additional features such as promotional markdowns, holidays, and external factors like fuel prices, unemployment rates, and temperature.
+# Retail Sales Data Analysis
 
+## Introduction
 
-the source of this data: https://www.kaggle.com/datasets/manjeetsingh/retaildataset
-- **The dataset consists of three main components**:
+I analyzed sales data from 45 retail stores to find out what affects their sales. The data covers weekly sales, store details, promotions, holidays, and external factors like fuel prices, unemployment rates, and temperature.
 
-  - **Stores**: Information about store size and type.
-  - **Features**: External factors and promotional markdown data.
-  - **Sales**: Weekly sales records for each store and department, including holiday indicators
+**Data Source**: [Retail Dataset on Kaggle](https://www.kaggle.com/datasets/manjeetsingh/retaildataset)
 
+**The dataset includes three main parts**:
 
-## Objective:
-this analysis aims to Understand the impact of markdown events on sales.
-Evaluate the influence of holidays such as the Super Bowl, Labor Day, Thanksgiving, and Christmas.
-Determine the relationship between store size, markdowns, and other features on sales performance.
+- **Stores**: Information about each store's type and size.
+- **Features**: Details on promotions and external factors.
+- **Sales**: Weekly sales records for each store and department, indicating holidays.
 
-# Retail Sales & Markdown Strategy Analysis
+## Objectives
 
-## Key Findings:
+- Understand how markdown promotions impact sales.
+- Evaluate the influence of holidays like the Super Bowl, Labor Day, Thanksgiving, and Christmas.
+- Determine how store size, markdowns, and other factors relate to sales performance.
 
-### 1. Low Impact Factors:
-- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** showed low correlation with sales, indicating these external factors do not significantly affect sales performance in this dataset, and dosen't show any patterns.
+## Key Findings
 
-  
-![image](https://github.com/user-attachments/assets/003153ee-cac6-460a-a24c-8ebd7d15e77a)
+### 1. External Factors Have Low Impact
 
-### 2. Markdowns & Holidays:
-- **Markdowns** have a moderate to high correlation with sales, particularly during holidays.
-    - **For Store A**:
-        - Correlation ranges from 0.565 to 0.889 during holidays.
-    - **For Store B**:
-        - Similar results, with correlations ranging from 0.556 to 0.700 during holidays.
-    - **For Store C**:
-        - Markdowns have little to no effect on sales, with very low or negative correlations (-0.076), suggesting markdown promotions are not effective for this store type.
+- **CPI**, **Unemployment**, **Fuel Prices**, and **Temperature** have little to no correlation with sales.
+- These factors don't significantly affect sales in our dataset.
 
-### 3. Store Type Trends:
-- **Store A** and **Store B** share similar sales patterns and trends, with markdowns having a notable impact.
-  
-  ![image](https://github.com/user-attachments/assets/1e8b0c6d-005f-4011-b4cc-58d054822731)
+### 2. Promotions and Holidays Boost Sales
 
-- **Store C** shows a unique sales pattern, where sales are higher at the beginning of the month and decline towards the end, without any significant correlation to markdowns.
+- **Markdowns** (promotional discounts) have a moderate to high positive effect on sales, especially during holidays.
 
-  ![image](https://github.com/user-attachments/assets/8b4f5e7a-6eb6-4eb1-b3cf-283171b848d4)
+  - **Store A**:
+    - During holidays, the correlation between markdowns and sales ranges from 0.565 to 0.889.
+  - **Store B**:
+    - Similar correlations ranging from 0.556 to 0.700.
+  - **Store C**:
+    - Markdowns have little or no effect, with correlations around -0.076.
+    - Promotions aren't effective for this store type.
 
+### 3. Different Sales Patterns by Store Type
 
-### 4. Size of Markdown:
-- **Markdowns below 20,000** show the best correlation with sales for Stores A and B, especially during holidays.
-- Larger markdowns (above 20,000) appear to have less affect on sales during non-holiday showing in correlations decreasing. It is recommended to limit markdowns to **20,000 or below** during non-holiday periods to optimize sales.
+- **Stores A and B**:
+  - Share similar sales trends.
+  - Markdowns significantly impact their sales.
 
-![image](https://github.com/user-attachments/assets/a8583d08-eed5-4b9a-a8eb-77558a4d6a8f)
+  ![Stores A and B Sales Trends](https://github.com/user-attachments/assets/1e8b0c6d-005f-4011-b4cc-58d054822731)
 
+- **Store C**:
+  - Sales are higher at the beginning of the month and decline towards the end.
+  - Markdowns don't significantly affect its sales.
 
-- During **holidays**, markdowns can exceed the 20,000 threshold as they are shown to have a strong positive impact on sales with a correlation of 0.67 on A stores and 0.7 on B stores.
+  ![Store C Sales Trend](https://github.com/user-attachments/assets/8b4f5e7a-6eb6-4eb1-b3cf-283171b848d4)
 
-![image](https://github.com/user-attachments/assets/23a648db-955b-470a-81af-3f7c9a7ad5a1)
+### 4. Optimal Markdown Amounts
 
+- **Markdowns below \$20,000** are most effective for Stores A and B, especially during holidays.
+- Larger markdowns (above \$20,000) have less impact during non-holiday periods.
+  - It's best to keep markdowns at \$20,000 or less during non-holidays.
 
-### 5. Factors Affecting Sales:
-- The three main factors that have the most significant impact on sales are:
-    1. **Store Size**: Larger stores tend to show higher sales, with store size having a strong correlation with sales performance (as observed with a 0.8 correlation in some store types).
-    2. **Markdowns**: Both the size and timing of markdowns play a critical role in boosting sales(on store A,B only).
-    3. **Holidays**: Sales are significantly higher during holidays, especially when combined with markdowns.
+  ![Markdown Effectiveness](https://github.com/user-attachments/assets/a8583d08-eed5-4b9a-a8eb-77558a4d6a8f)
 
-## Recommendations:
-1. **For Non-Holiday Periods**: Stick to markdowns ≤ **20,000**, as this size has shown to work best with the available data and optimizes resource allocation.
-2. **For Holiday Periods**: Given the correlation of 0.67 on A stores and 0.7 on B stores, markdowns can exceed **20,000** during holidays to maximize sales potential.
-3. **Focus on Store Size**: Ensure that markdown strategies are tailored according to store size, as it is one of the major factors influencing sales performance.
-4. **Reassess Markdown Strategies for Store C**: Store C’s markdowns do not correlate with sales and should consider alternative promotional strategies or focus on other factors influencing sales.
+- **During Holidays**:
+  - Higher markdowns (above \$20,000) are effective.
+  - Correlations with sales are 0.67 for Store A and 0.7 for Store B.
 
-## Conclusion:
-This analysis highlights that markdown strategies should be tailored to both store type and holiday periods. Smaller markdowns work best during non-holidays, while larger markdowns can be more effective during holidays. Additionally, store size is a crucial factor influencing sales, and strategies should reflect this reality for maximum sales optimization.
+  ![Holiday Markdown Impact](https://github.com/user-attachments/assets/23a648db-955b-470a-81af-3f7c9a7ad5a1)
+
+### 5. Main Factors Influencing Sales
+
+1. **Store Size**:
+   - Larger stores generally have higher sales.
+   - Strong correlation (up to 0.8) between store size and sales.
+
+2. **Markdowns**:
+   - Timing and amount are crucial, especially for Stores A and B.
+
+3. **Holidays**:
+   - Sales increase significantly during holidays when combined with promotions.
+
+## Recommendations
+
+1. **Non-Holiday Periods**:
+   - Limit markdowns to \$20,000 or less for optimal results.
+
+2. **Holiday Periods**:
+   - It's beneficial to increase markdowns above \$20,000 to maximize sales.
+
+3. **Adjust Strategies Based on Store Size**:
+   - Tailor markdown strategies according to the size of the store.
+
+4. **Reevaluate Promotions for Store C**:
+   - Since markdowns aren't effective, consider other promotional strategies or focus on different factors.
+
+## Conclusion
+
+To optimize sales:
+
+- **Customize markdown strategies** based on store type and time of year.
+  - Use smaller markdowns during non-holidays.
+  - Allow for larger markdowns during holidays for Stores A and B.
+- **Consider store size** when planning promotions.
+- **Explore alternative strategies for Store C**, as traditional markdowns don't boost its sales.
+
+By following these insights, we can improve sales performance across different stores and times.
