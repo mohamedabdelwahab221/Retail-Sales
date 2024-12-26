@@ -75,6 +75,9 @@ I analyzed sales data from 45 retail stores to find out what affects their sales
 1. **Store Size**:
    - Larger stores generally have higher sales.
    - Strong correlation (up to 0.8) between store size and sales.
+  
+![size vs slaes](https://github.com/user-attachments/assets/afc9487f-6d33-45f7-96ed-ee35c4757d9f)
+
 
 2. **Markdowns**:
    - Timing and amount are crucial, especially for Stores A and B.
